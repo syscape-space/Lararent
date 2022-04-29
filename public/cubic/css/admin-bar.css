@@ -1,0 +1,859 @@
+/*! This file is auto-generated */
+#lradminbar, #lradminbar * {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 32px
+}
+
+#lradminbar * {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    position: static;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    border-radius: 0;
+    box-sizing: content-box;
+    transition: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto
+}
+
+.rtl #lradminbar * {
+    font-family: Tahoma, sans-serif
+}
+
+html:lang(he-il) .rtl #lradminbar * {
+    font-family: Arial, sans-serif
+}
+
+#lradminbar .ab-empty-item {
+    cursor: default;
+    outline: 0
+}
+
+#lradminbar .ab-empty-item, #lradminbar a.ab-item, #lradminbar > #lr-toolbar span.ab-label, #lradminbar > #lr-toolbar span.noticon {
+    color: #eee
+}
+
+#lradminbar #lr-admin-bar-my-sites a.ab-item, #lradminbar #lr-admin-bar-site-name a.ab-item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#lradminbar ul li:after, #lradminbar ul li:before {
+    content: normal
+}
+
+#lradminbar a, #lradminbar a img, #lradminbar a img:hover, #lradminbar a:hover {
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    background: 0 0
+}
+
+#lradminbar a:active, #lradminbar a:focus, #lradminbar div, #lradminbar input[type=text], #lradminbar input[type=password], #lradminbar input[type=number], #lradminbar input[type=search], #lradminbar input[type=email], #lradminbar input[type=url], #lradminbar select, #lradminbar textarea {
+    box-shadow: none;
+    outline: 0
+}
+
+#lradminbar {
+    direction: ltr;
+    color: #ccc;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    height: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 600px;
+    z-index: 99999;
+  /*  background: #3c5b9b;*/
+    background: #25bf67;
+    background: -moz-linear-gradient(left,#25bf67 1%,#3fdd82 100%);
+    background: -webkit-linear-gradient(left,#25bf67 1%,#3fdd82 100%);
+    background: linear-gradient(to right,#25bf67 1%,#3fdd82 100%);
+}
+
+#lradminbar .ab-sub-wrapper, #lradminbar ul, #lradminbar ul li {
+    background: 0 0;
+    clear: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-indent: 0;
+    z-index: 99999
+}
+
+#lradminbar ul#lr-admin-bar-root-default > li {
+    margin-right: 0
+}
+
+#lradminbar .quicklinks ul {
+    text-align: left
+}
+
+#lradminbar li {
+    float: left
+}
+
+#lradminbar .quicklinks .ab-top-secondary > li {
+    float: right
+}
+
+#lradminbar .quicklinks .ab-empty-item, #lradminbar .quicklinks a, #lradminbar .shortlink-input {
+    height: 32px;
+    display: block;
+    padding: 0 10px;
+    margin: 0
+}
+
+#lradminbar .quicklinks > ul > li > a {
+    padding: 0 8px 0 7px
+}
+
+#lradminbar .menupop .ab-sub-wrapper, #lradminbar .shortlink-input {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    background: #3c5b9b;
+    display: none;
+    position: absolute;
+    float: none
+}
+
+#lradminbar .selected .shortlink-input, #lradminbar li.hover > .ab-sub-wrapper, #lradminbar.nojs li:hover > .ab-sub-wrapper {
+    display: block
+}
+
+#lradminbar.ie7 .menupop .ab-sub-wrapper, #lradminbar.ie7 .shortlink-input {
+    top: 32px;
+    left: 0
+}
+
+#lradminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+    min-width: 100%
+}
+
+#lradminbar .ab-top-secondary .menupop .ab-sub-wrapper {
+    right: 0;
+    left: auto
+}
+
+#lradminbar .ab-submenu {
+    padding: 6px 0
+}
+
+#lradminbar .quicklinks .menupop ul li {
+    float: none
+}
+
+#lradminbar .quicklinks .menupop ul li a strong {
+    font-weight: 600
+}
+
+#lradminbar .quicklinks .menupop ul li .ab-item, #lradminbar .quicklinks .menupop ul li a strong, #lradminbar .quicklinks .menupop.hover ul li .ab-item, #lradminbar .shortlink-input, #lradminbar.nojs .quicklinks .menupop:hover ul li .ab-item {
+    line-height: 26px;
+    height: 26px;
+    white-space: nowrap;
+    min-width: 140px
+}
+
+#lradminbar .shortlink-input {
+    width: 200px
+}
+
+#lradminbar .menupop li.hover > .ab-sub-wrapper, #lradminbar .menupop li:hover > .ab-sub-wrapper {
+    margin-left: 100%;
+    margin-top: -32px
+}
+
+#lradminbar .ab-top-secondary .menupop li.hover > .ab-sub-wrapper, #lradminbar .ab-top-secondary .menupop li:hover > .ab-sub-wrapper {
+    margin-left: 0;
+    left: inherit;
+    right: 100%
+}
+
+#lradminbar .ab-top-menu > li.hover > .ab-item, #lradminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, #lradminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item, #lradminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
+    background: #3c5b9b;
+    color: #00b9eb
+}
+
+#lradminbar:not(.mobile) > #lr-toolbar a:focus span.ab-label, #lradminbar:not(.mobile) > #lr-toolbar li:hover span.ab-label, #lradminbar > #lr-toolbar li.hover span.ab-label {
+    color: #00b9eb
+}
+
+#lradminbar .ab-icon, #lradminbar .ab-item:before, #lradminbar > #lr-toolbar > #lr-admin-bar-root-default .ab-icon {
+    position: relative;
+    float: left;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    padding: 4px 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: none !important;
+    margin-right: 6px
+}
+
+#lradminbar #adminbarsearch:before, #lradminbar .ab-icon:before, #lradminbar .ab-item:before {
+    color: #a0a5aa;
+    color: rgba(240, 245, 250, .6);
+    position: relative;
+    transition: all .1s ease-in-out
+}
+
+#lradminbar .ab-label {
+    display: inline-block;
+    height: 32px
+}
+
+#lradminbar .ab-submenu .ab-item, #lradminbar .quicklinks .menupop ul li a, #lradminbar .quicklinks .menupop ul li a strong, #lradminbar .quicklinks .menupop.hover ul li a, #lradminbar.nojs .quicklinks .menupop:hover ul li a {
+    color: #b4b9be;
+    color: rgba(240, 245, 250, .7)
+}
+
+#lradminbar .quicklinks .ab-sub-wrapper .menupop.hover > a, #lradminbar .quicklinks .menupop ul li a:focus, #lradminbar .quicklinks .menupop ul li a:focus strong, #lradminbar .quicklinks .menupop ul li a:hover, #lradminbar .quicklinks .menupop ul li a:hover strong, #lradminbar .quicklinks .menupop.hover ul li a:focus, #lradminbar .quicklinks .menupop.hover ul li a:hover, #lradminbar .quicklinks .menupop.hover ul li div[tabindex]:focus, #lradminbar .quicklinks .menupop.hover ul li div[tabindex]:hover, #lradminbar li #adminbarsearch.adminbar-focused:before, #lradminbar li .ab-item:focus .ab-icon:before, #lradminbar li .ab-item:focus:before, #lradminbar li a:focus .ab-icon:before, #lradminbar li.hover .ab-icon:before, #lradminbar li.hover .ab-item:before, #lradminbar li:hover #adminbarsearch:before, #lradminbar li:hover .ab-icon:before, #lradminbar li:hover .ab-item:before, #lradminbar.nojs .quicklinks .menupop:hover ul li a:focus, #lradminbar.nojs .quicklinks .menupop:hover ul li a:hover {
+    color: #00b9eb
+}
+
+#lradminbar.mobile .quicklinks .ab-icon:before, #lradminbar.mobile .quicklinks .ab-item:before {
+    color: #b4b9be
+}
+
+#lradminbar.mobile .quicklinks .hover .ab-icon:before, #lradminbar.mobile .quicklinks .hover .ab-item:before {
+    color: #00b9eb
+}
+
+#lradminbar .ab-top-secondary .menupop .menupop > .ab-item:before, #lradminbar .menupop .menupop > .ab-item:before {
+    position: absolute;
+    font: 400 17px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#lradminbar .menupop .menupop > .ab-item {
+    display: block;
+    padding-right: 2em
+}
+
+
+
+#lradminbar .ab-top-secondary .menupop .menupop > .ab-item {
+    padding-left: 2em;
+    padding-right: 1em
+}
+
+
+#lradminbar .quicklinks .menupop ul.ab-sub-secondary {
+    display: block;
+    position: relative;
+    right: auto;
+    margin: 0;
+    box-shadow: none
+}
+
+#lradminbar .quicklinks .menupop ul.ab-sub-secondary, #lradminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
+    background: #464b50
+}
+
+#lradminbar .quicklinks .menupop .ab-sub-secondary > li .ab-item:focus a, #lradminbar .quicklinks .menupop .ab-sub-secondary > li > a:hover {
+    color: #00b9eb
+}
+
+#lradminbar .quicklinks a span#ab-updates {
+    background: #eee;
+    color: #3c5b9b;
+    display: inline;
+    padding: 2px 5px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 10px
+}
+
+#lradminbar .quicklinks a:hover span#ab-updates {
+    background: #fff;
+    color: #000
+}
+
+#lradminbar .ab-top-secondary {
+    float: right
+}
+
+#lradminbar ul li:last-child, #lradminbar ul li:last-child .ab-item {
+    box-shadow: none
+}
+
+#lr-admin-bar-my-account > ul {
+    min-width: 198px
+}
+
+
+
+#lr-admin-bar-my-account.with-avatar > .ab-item:before {
+    display: none;
+    content: none
+}
+
+#lr-admin-bar-my-account.with-avatar > ul {
+    min-width: 270px
+}
+
+#lradminbar.ie8 #lr-admin-bar-my-account.with-avatar .ab-item {
+    white-space: nowrap
+}
+
+#lradminbar #lr-admin-bar-user-actions > li {
+    margin-left: 16px;
+    margin-right: 16px
+}
+
+#lradminbar #lr-admin-bar-user-actions.ab-submenu {
+    padding: 6px 0 12px
+}
+
+#lradminbar #lr-admin-bar-my-account.with-avatar #lr-admin-bar-user-actions > li {
+    margin-left: 88px
+}
+
+#lradminbar #lr-admin-bar-user-info {
+    margin-top: 6px;
+    margin-bottom: 15px;
+    height: auto;
+    background: 0 0
+}
+
+#lr-admin-bar-user-info .avatar {
+    position: absolute;
+    left: -72px;
+    top: 4px;
+    width: 64px;
+    height: 64px
+}
+
+#lradminbar #lr-admin-bar-user-info a {
+    background: 0 0;
+    height: auto
+}
+
+#lradminbar #lr-admin-bar-user-info span {
+    background: 0 0;
+    padding: 0;
+    height: 18px
+}
+
+#lradminbar #lr-admin-bar-user-info .display-name, #lradminbar #lr-admin-bar-user-info .username {
+    display: block
+}
+
+#lradminbar #lr-admin-bar-user-info .username {
+    color: #a0a5aa;
+    font-size: 11px
+}
+
+#lradminbar #lr-admin-bar-my-account.with-avatar > .ab-empty-item img, #lradminbar #lr-admin-bar-my-account.with-avatar > a img {
+    width: auto;
+    height: 16px;
+    padding: 0;
+    border: 1px solid #82878c;
+    background: #eee;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: -4px 0 0 6px;
+    float: none;
+    display: inline
+}
+
+#lradminbar.ie8 #lr-admin-bar-my-account.with-avatar > .ab-empty-item img, #lradminbar.ie8 #lr-admin-bar-my-account.with-avatar > a img {
+    width: auto
+}
+
+#lradminbar #lr-admin-bar-lr-logo > .ab-item .ab-icon {
+    width: 15px;
+    height: 20px;
+    margin-right: 0;
+    padding: 6px 0 5px
+}
+
+#lradminbar #lr-admin-bar-lr-logo > .ab-item {
+    padding: 0 7px
+}
+
+
+
+#lradminbar .quicklinks li .blavatar {
+    float: left;
+    font: 400 16px/1 dashicons !important;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #eee
+}
+
+#lradminbar .quicklinks .ab-sub-wrapper .menupop.hover > a .blavatar, #lradminbar .quicklinks li a:focus .blavatar, #lradminbar .quicklinks li a:hover .blavatar {
+    color: #00b9eb
+}
+
+
+
+#lradminbar #lr-admin-bar-appearance {
+    margin-top: -12px
+}
+
+
+#lradminbar #lr-admin-bar-comments .ab-icon {
+    margin-right: 6px
+}
+
+
+
+#lradminbar #lr-admin-bar-comments .count-0 {
+    opacity: .5
+}
+
+
+
+
+
+#lradminbar.ie8 #lr-admin-bar-search {
+    display: block;
+    min-width: 32px
+}
+
+#lradminbar #lr-admin-bar-search .ab-item {
+    padding: 0;
+    background: 0 0
+}
+
+#lradminbar #adminbarsearch {
+    position: relative;
+    height: 32px;
+    padding: 0 2px;
+    z-index: 1
+}
+
+
+
+#lradminbar > #lr-toolbar > #lr-admin-bar-top-secondary > #lr-admin-bar-search #adminbarsearch input.adminbar-input {
+    display: inline-block;
+    float: none;
+    position: relative;
+    z-index: 30;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 24px;
+    text-indent: 0;
+    height: 24px;
+    width: 24px;
+    max-width: none;
+    padding: 0 3px 0 24px;
+    margin: 0;
+    color: #ccc;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition-duration: .4s;
+    transition-property: width, background;
+    transition-timing-function: ease
+}
+
+#lradminbar > #lr-toolbar > #lr-admin-bar-top-secondary > #lr-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+    z-index: 10;
+    color: #000;
+    width: 200px;
+    background-color: rgba(255, 255, 255, .9);
+    cursor: text;
+    border: 0
+}
+
+#lradminbar.ie7 > #lr-toolbar > #lr-admin-bar-top-secondary > #lr-admin-bar-search #adminbarsearch input.adminbar-input {
+    margin-top: 3px;
+    width: 120px
+}
+
+#lradminbar.ie8 > #lr-toolbar > #lr-admin-bar-top-secondary > #lr-admin-bar-search #adminbarsearch input.adminbar-input {
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRвЂЊвЂ‹AA7)
+}
+
+
+
+#lradminbar.ie8 > #lr-toolbar > #lr-admin-bar-top-secondary > #lr-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+    background: #fff;
+    z-index: -1
+}
+
+#lradminbar #adminbarsearch .adminbar-button, .customize-support #lradminbar .hide-if-customize, .customize-support .hide-if-customize, .customize-support .lr-core-ui .hide-if-customize, .customize-support.lr-core-ui .hide-if-customize, .no-customize-support #lradminbar .hide-if-no-customize, .no-customize-support .hide-if-no-customize, .no-customize-support .lr-core-ui .hide-if-no-customize, .no-customize-support.lr-core-ui .hide-if-no-customize {
+    display: none
+}
+
+#lradminbar .screen-reader-text, #lradminbar .screen-reader-text span {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important
+}
+
+#lradminbar .screen-reader-shortcut {
+    position: absolute;
+    top: -1000em
+}
+
+#lradminbar .screen-reader-shortcut:focus {
+    left: 6px;
+    top: 7px;
+    height: auto;
+    width: auto;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 23px 14px;
+    background: #f1f1f1;
+    color: #0073aa;
+    z-index: 100000;
+    line-height: normal;
+    text-decoration: none;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6)
+}
+
+* html #lradminbar {
+    overflow: hidden;
+    position: absolute
+}
+
+* html #lradminbar .quicklinks ul li a {
+    float: left
+}
+
+* html #lradminbar .menupop a span {
+    background-image: none
+}
+
+.no-font-face #lradminbar ul.ab-top-menu > li > a.ab-item {
+    display: block;
+    width: 45px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 3px
+}
+
+.no-font-face #lradminbar #lr-admin-bar-edit > .ab-item, .no-font-face #lradminbar #lr-admin-bar-my-sites > .ab-item, .no-font-face #lradminbar #lr-admin-bar-site-name > .ab-item {
+    text-indent: 0
+}
+
+.no-font-face #lradminbar #lr-admin-bar-lr-logo > .ab-item, .no-font-face #lradminbar .ab-icon, .no-font-face #lradminbar .ab-icon:before, .no-font-face #lradminbar a.ab-item:before {
+    display: none !important
+}
+
+.no-font-face #lradminbar ul.ab-top-menu > li > a > span.ab-label {
+    display: inline
+}
+
+.no-font-face #lradminbar #lr-admin-bar-menu-toggle span.ab-icon {
+    display: inline !important
+}
+
+
+
+.no-font-face #lradminbar #lr-admin-bar-site-name a.ab-item {
+    color: #fff
+}
+
+@media screen and (max-width: 782px) {
+    #lradminbar ul#lr-admin-bar-root-default > li, .network-admin #lradminbar ul#lr-admin-bar-top-secondary > li#lr-admin-bar-my-account {
+        margin-right: 0
+    }
+
+    html #lradminbar {
+        height: 46px;
+        min-width: 300px
+    }
+
+    #lradminbar * {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        line-height: 32px
+    }
+
+    #lradminbar .quicklinks .ab-empty-item, #lradminbar .quicklinks > ul > li > a {
+        padding: 0;
+        height: 46px;
+        line-height: 46px;
+        width: auto
+    }
+
+    #lradminbar .ab-icon {
+        font: 40px/1 dashicons !important;
+        margin: 0;
+        padding: 0;
+        width: 52px;
+        height: 46px;
+        text-align: center
+    }
+
+    #lradminbar .ab-icon:before {
+        text-align: center
+    }
+
+    #lradminbar .ab-submenu {
+        padding: 0
+    }
+
+    #lradminbar #lr-admin-bar-my-account a.ab-item, #lradminbar #lr-admin-bar-my-sites a.ab-item, #lradminbar #lr-admin-bar-site-name a.ab-item {
+        text-overflow: clip
+    }
+
+    #lradminbar .ab-label {
+        display: none
+    }
+
+    #lradminbar .menupop li.hover > .ab-sub-wrapper, #lradminbar .menupop li:hover > .ab-sub-wrapper {
+        margin-top: -46px
+    }
+
+    #lradminbar #lr-admin-bar-comments .ab-icon, #lradminbar #lr-admin-bar-my-account.with-avatar #lr-admin-bar-user-actions > li {
+        margin: 0
+    }
+
+    #lradminbar .ab-top-menu .menupop .ab-sub-wrapper .menupop > .ab-item {
+        padding-right: 30px
+    }
+
+    #lradminbar .menupop .menupop > .ab-item:before {
+        top: 10px;
+        right: 6px
+    }
+
+    #lradminbar .ab-top-menu > .menupop > .ab-sub-wrapper .ab-item {
+        font-size: 16px;
+        padding: 8px 16px
+    }
+
+    #lradminbar .ab-top-menu > .menupop > .ab-sub-wrapper a:empty {
+        display: none
+    }
+
+    #lradminbar #lr-admin-bar-lr-logo > .ab-item {
+        padding: 0
+    }
+
+    #lradminbar #lr-admin-bar-lr-logo > .ab-item .ab-icon {
+        padding: 0;
+        width: 52px;
+        height: 46px;
+        text-align: center;
+        vertical-align: top
+    }
+
+    #lradminbar #lr-admin-bar-lr-logo > .ab-item .ab-icon:before {
+        font: 28px/1 dashicons !important;
+        top: -3px
+    }
+
+    #lradminbar .ab-icon, #lradminbar .ab-item:before {
+        padding: 0
+    }
+
+    #lradminbar #lr-admin-bar-customize > .ab-item, #lradminbar #lr-admin-bar-edit > .ab-item, #lradminbar #lr-admin-bar-my-account > .ab-item, #lradminbar #lr-admin-bar-my-sites > .ab-item, #lradminbar #lr-admin-bar-site-name > .ab-item {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 52px;
+        padding: 0;
+        color: #a0a5aa;
+        position: relative
+    }
+
+    #lradminbar .ab-icon, #lradminbar .ab-item:before, #lradminbar > #lr-toolbar > #lr-admin-bar-root-default .ab-icon {
+        padding: 0;
+        margin-right: 0
+    }
+
+    #lradminbar #lr-admin-bar-customize > .ab-item:before, #lradminbar #lr-admin-bar-edit > .ab-item:before, #lradminbar #lr-admin-bar-my-account > .ab-item:before, #lradminbar #lr-admin-bar-my-sites > .ab-item:before, #lradminbar #lr-admin-bar-site-name > .ab-item:before {
+        display: block;
+        text-indent: 0;
+        font: 400 32px/1 dashicons;
+        speak: none;
+        top: 7px;
+        width: 52px;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+    }
+
+    #lradminbar #lr-admin-bar-appearance {
+        margin-top: 0
+    }
+
+    #lradminbar .quicklinks li .blavatar:before {
+        display: none
+    }
+
+    #lradminbar #lr-admin-bar-search {
+        display: none
+    }
+
+    #lradminbar #lr-admin-bar-new-content .ab-icon:before {
+        top: 0;
+        line-height: 53px;
+        height: 46px !important;
+        text-align: center;
+        width: 52px;
+        display: block
+    }
+
+    #lradminbar #lr-admin-bar-updates {
+        text-align: center
+    }
+
+    #lradminbar #lr-admin-bar-updates .ab-icon:before {
+        top: 3px
+    }
+
+    #lradminbar #lr-admin-bar-comments .ab-icon:before {
+        display: block;
+        font-size: 34px;
+        height: 46px;
+        line-height: 47px;
+        top: 0
+    }
+
+    #lr-toolbar > ul > li, #lradminbar #lr-admin-bar-user-actions.ab-submenu img.avatar {
+        display: none
+    }
+
+    #lradminbar #lr-admin-bar-my-account > a {
+        position: relative;
+        white-space: nowrap;
+        text-indent: 150%;
+        width: 28px;
+        padding: 0 10px;
+        overflow: hidden
+    }
+
+    #lradminbar .quicklinks li#lr-admin-bar-my-account.with-avatar > a img {
+        position: absolute;
+        top: 13px;
+        right: 10px;
+        width: 26px;
+        height: 26px
+    }
+
+    #lradminbar #lr-admin-bar-user-actions.ab-submenu {
+        padding: 0
+    }
+
+    #lradminbar #lr-admin-bar-user-info .display-name {
+        height: auto;
+        font-size: 16px;
+        line-height: 24px;
+        color: #eee
+    }
+
+    #lradminbar #lr-admin-bar-user-info a {
+        padding-top: 4px
+    }
+
+    #lradminbar #lr-admin-bar-user-info .username {
+        line-height: .8 !important;
+        margin-bottom: -2px
+    }
+
+    #lradminbar li#lr-admin-bar-comments, #lradminbar li#lr-admin-bar-customize, #lradminbar li#lr-admin-bar-edit, #lradminbar li#lr-admin-bar-menu-toggle, #lradminbar li#lr-admin-bar-my-account, #lradminbar li#lr-admin-bar-my-sites, #lradminbar li#lr-admin-bar-new-content, #lradminbar li#lr-admin-bar-site-name, #lradminbar li#lr-admin-bar-updates, #lradminbar li#lr-admin-bar-lr-logo {
+        display: block
+    }
+
+    #lradminbar li.hover ul li, #lradminbar li:hover ul li, #lradminbar li:hover ul li:hover ul li {
+        display: list-item
+    }
+
+    #lradminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+        min-width: -webkit-fit-content;
+        min-width: -moz-fit-content;
+        min-width: fit-content
+    }
+
+    #lradminbar #lr-admin-bar-comments, #lradminbar #lr-admin-bar-edit, #lradminbar #lr-admin-bar-my-account, #lradminbar #lr-admin-bar-my-sites, #lradminbar #lr-admin-bar-new-content, #lradminbar #lr-admin-bar-site-name, #lradminbar #lr-admin-bar-updates, #lradminbar #lr-admin-bar-lr-logo, #lradminbar .ab-top-menu, #lradminbar .ab-top-secondary {
+        position: static
+    }
+
+    #lradminbar #lr-admin-bar-my-account {
+        float: right
+    }
+
+    #lradminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+        top: 10px;
+        left: 0
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #lradminbar {
+        position: absolute
+    }
+
+    #lr-responsive-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 400
+    }
+
+    #lradminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+        width: 100%;
+        left: 0
+    }
+
+    #lradminbar .menupop .menupop > .ab-item:before {
+        display: none
+    }
+
+    #lradminbar #lr-admin-bar-lr-logo.menupop .ab-sub-wrapper {
+        margin-left: 0
+    }
+
+    #lradminbar .ab-top-menu > .menupop li > .ab-sub-wrapper {
+        margin: 0;
+        width: 100%;
+        top: auto;
+        left: auto;
+        position: static;
+        box-shadow: none
+    }
+
+    #lradminbar .ab-top-menu > .menupop li > .ab-sub-wrapper .ab-item {
+        font-size: 16px;
+        padding: 6px 15px 19px 30px
+    }
+
+    #lradminbar li:hover ul li ul li {
+        display: list-item
+    }
+
+    #lradminbar li#lr-admin-bar-updates, #lradminbar li#lr-admin-bar-lr-logo {
+        display: none
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #lradminbar li#lr-admin-bar-comments {
+        display: none
+    }
+}

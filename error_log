@@ -1,0 +1,103 @@
+[10-Apr-2022 15:47:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 15:48:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 15:49:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 15:50:11 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 15:50:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 15:50:42 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Apr-2022 15:50:42 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 900
+[10-Apr-2022 15:50:42 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Apr-2022 15:50:42 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 900
+[10-Apr-2022 18:50:42 Europe/Kiev] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/lararent/...', 826)
+#1 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build('Corp\\Exceptions...')
+#3 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve('Corp\\Exceptions...', Array)
+#4 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make('Corp\\Exceptions...', Array)
+#5 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('Corp\\Exceptions...', Array)
+#6 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#7 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build(Object(Closure))
+#8 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#9 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(101): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(87): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Apr-2022 18:50:42 Europe/Kiev] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/lararent/...', 826)
+#1 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build('Corp\\Exceptions...')
+#3 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve('Corp\\Exceptions...', Array)
+#4 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make('Corp\\Exceptions...', Array)
+#5 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('Corp\\Exceptions...', Array)
+#6 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#7 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build(Object(Closure))
+#8 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#9 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(101): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(87): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#13 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(123): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#15 {main}
+  thrown in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Apr-2022 15:51:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 15:51:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Composer\Composer' not found in /home/lararent/public_html/vendor/nesbot/carbon/src/Carbon/Upgrade.php:131
+Stack trace:
+#0 /home/lararent/public_html/vendor/nesbot/carbon/bin/upgrade-carbon(28): Carbon\Upgrade::upgrade()
+#1 {main}
+  thrown in /home/lararent/public_html/vendor/nesbot/carbon/src/Carbon/Upgrade.php on line 131
+[10-Apr-2022 15:52:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 15:52:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Composer\Composer' not found in /home/lararent/public_html/vendor/nesbot/carbon/src/Carbon/Upgrade.php:131
+Stack trace:
+#0 /home/lararent/public_html/vendor/nesbot/carbon/bin/upgrade-carbon(28): Carbon\Upgrade::upgrade()
+#1 {main}
+  thrown in /home/lararent/public_html/vendor/nesbot/carbon/src/Carbon/Upgrade.php on line 131
+[10-Apr-2022 16:02:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 16:02:12 UTC] PHP Fatal error:  Declaration of DateTime::modify(string $modifier) must be compatible with Carbon\CarbonInterface::modify($modify) in /home/lararent/public_html/vendor/nesbot/carbon/src/Carbon/Carbon.php on line 0
+[10-Apr-2022 16:03:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 16:04:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php80/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Apr-2022 16:04:03 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Apr-2022 16:04:03 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 900
+[10-Apr-2022 16:04:03 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Apr-2022 16:04:03 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 900
+[10-Apr-2022 19:04:03 Europe/Kiev] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/lararent/...', 826)
+#1 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build('Corp\\Exceptions...')
+#3 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve('Corp\\Exceptions...', Array)
+#4 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make('Corp\\Exceptions...', Array)
+#5 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('Corp\\Exceptions...', Array)
+#6 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#7 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build(Object(Closure))
+#8 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#9 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(101): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(87): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Apr-2022 19:04:03 Europe/Kiev] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/lararent/...', 826)
+#1 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build('Corp\\Exceptions...')
+#3 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve('Corp\\Exceptions...', Array)
+#4 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make('Corp\\Exceptions...', Array)
+#5 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('Corp\\Exceptions...', Array)
+#6 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#7 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build(Object(Closure))
+#8 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#9 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(101): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(87): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#13 /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(123): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#15 {main}
+  thrown in /home/lararent/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826

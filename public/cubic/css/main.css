@@ -1,0 +1,29 @@
+.dropzone.dz-drag-hover {
+    border-style: solid;
+
+    background: #00bbd914;
+}
+.dropzone {
+
+    overflow: hidden;
+
+}
+
+
+
+
+.media-modal-dialog,
+.media-modal-content {
+    /* 80% of window height */
+    height: 97%;
+    padding: 0 !important;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+.modal-open .modal {
+    overflow-y:  hidden;
+}
